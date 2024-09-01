@@ -13,7 +13,7 @@ import {
 const App = () => {
   const socket = useMemo(
     () =>
-      io("http://localhost:3000", {
+      io("https://chat-backend-h50y.onrender.com", {
         withCredentials: true,
       }),
     []
